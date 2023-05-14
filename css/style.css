@@ -1,0 +1,65 @@
+html, body {
+background : #fff;
+margin : 0;
+padding : 0;
+font-family : 'Ubuntu Condensed', sans-serif;
+color : #e9e2ee;
+height : 100%;
+overflow : hidden;
+}
+header, nav, article, section, aside, footer {
+display : block;
+}
+.page-body {
+display : block;
+top : 20%;
+position : relative;
+}
+.page-section {
+max-width : 750px;
+margin : 0 auto;
+}
+#logotype span {
+background-image : url("../img/logo.png");
+margin : 0 auto;
+display : block;
+height : 103px;
+width : 250px;
+}
+.text p {
+text-shadow : 1px 0 2px rgba(0, 0, 0, 0.75);
+font-size : 23px;
+text-align : center;
+color : #003F7C;
+}
+footer {
+margin : 50px auto;
+text-align : center;
+position : relative;
+max-width : 540px;
+}
+.button {
+border : #0a3c59 solid 1px;
+background : #3e779d;
+padding : 4.5px 9px;
+border-radius : 7px;
+box-shadow : 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+text-shadow : 0 1px 0 #7ea4bd;
+color : #06426c;
+font-size : 17px;
+font-family : 'Ubuntu Condensed', sans-serif;
+text-decoration : none;
+vertical-align : middle;
+}
+.button:hover {
+border : #0a3c59 solid 1px;
+text-shadow : 0 1px 0 #1e4158;
+background : #3e779d;
+color : #fff;
+}
+.button:active {
+text-shadow : 0 1px 0 #1e4158;
+border : #0a3c59 solid 1px;
+background : #65a9d7;
+color : #fff;
+}
